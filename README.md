@@ -1,4 +1,5 @@
-# JS Dev and Wiki Repo for retrieval and learning
+# :book: JS Dev and Wiki Repo for retrieval and learning :shipit:
+---
 
 ## Table of contents:
 * [Scope](#scope)
