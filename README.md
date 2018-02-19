@@ -9,7 +9,16 @@
 * [Eloquent Javascript v3](http://eloquentjavascript.net/3rd_edition/)
 
 ## Concepts
-### Scopes and Closures
+
+### Scopes
+#### Lexical Scoping (Static Scoping)
+
+
+* Resources
+  * https://leanpub.com/javascriptallongesix/read#closures
+  * https://www.geeksforgeeks.org/static-and-dynamic-scoping/
+
+### Closures
 * Resources
   * https://leanpub.com/javascriptallongesix/read#closures
 
