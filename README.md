@@ -1,6 +1,6 @@
-# :book: JS Dev and Wiki Repo for retrieval and learning :shipit:
+# :book: JS Dev and Wiki Repo for retrieval and learning :wolf: 
 
-## Table of contents:
+## :shipit: Table of contents :
 * [Scope](#scope)
 * [User Manager](#user-manager)
 
