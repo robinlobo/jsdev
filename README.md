@@ -9,7 +9,9 @@
 * [Eloquent Javascript v3](http://eloquentjavascript.net/3rd_edition/)
 
 ## Concepts
-* Dynamic scopes
+### Scopes and Closures
+* Resources
+  * https://leanpub.com/javascriptallongesix/read#closures
 
 ## Welcome to GitHub Pages
 
