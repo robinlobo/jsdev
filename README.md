@@ -1,10 +1,14 @@
 # :book: JS Dev and Wiki Repo for retrieval and learning :wolf: 
 
-## :shipit: Table of contents :
-* [Scope](#scope)
-* [User Manager](#user-manager)
+## :shipit: Table of contents
+* [Resources](#resources)
+* [Concepts](#concepts)
 
-## Scope
+## Resources
+* [Javascript Allonge v6](https://leanpub.com/javascriptallongesix/read)
+* [Eloquent Javascript v3](http://eloquentjavascript.net/3rd_edition/)
+
+## Concepts
 * Dynamic scopes
 
 ## Welcome to GitHub Pages
