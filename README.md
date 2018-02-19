@@ -1,6 +1,6 @@
 # :book: JS Dev and Wiki Repo for retrieval and learning :wolf: 
 
-## :shipit: Table of contents
+# :shipit: Table of contents
 * [Resources](#resources)
 * [Concepts](#concepts)
 
