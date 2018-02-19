@@ -1,3 +1,12 @@
+# JS Dev and Wiki Repo for retrieval and learning
+
+## Table of contents:
+* [Scope](#scope)
+* [User Manager](#user-manager)
+
+## Scope
+* Dynamic scopes
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/robinlobo/jsdev/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
