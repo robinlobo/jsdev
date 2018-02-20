@@ -14,9 +14,16 @@
 #### Lexical Scoping (Static Scoping)
 
 
+
 * Resources
   * https://leanpub.com/javascriptallongesix/read#closures
   * https://www.geeksforgeeks.org/static-and-dynamic-scoping/
+
+### Hoisting
+Hoisting -> The variable declaration will always refer to it by the scope and be moved to the top of the environment
+
+* Resources
+  * https://stackoverflow.com/questions/31219420/are-variables-declared-with-let-or-const-not-hoisted-in-es6
 
 ### Closures
 * Resources
