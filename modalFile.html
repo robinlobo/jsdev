@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+ <head>
+   <title>Getting Started</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+   <script>
+   angular.module('testApp', [])
+     .controller('testCtrl', function($scope) {
+       $scope.todos = [
+         {text:'learn AngularJS', type:'doc', done:true},
+         {text:'build an AngularJS app',type:'excel', done:false},
+         {text:'learn AngularJS',type:'ppt', done:true},
+         {text:'learn AngularJS',type:'pdf', done:true}];
+    
+     });
+   </script>
+ </head>
+ <body>
+     <div ng-app="testApp" ng-controller="testCtrl">
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+        Launch demo modal
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                    <div class="panel panel-default" ng-repeat="todo in todos" style="width:32%;display:inline-block;margin-right:1%;">
+                            <div class="panel-body">
+                                <div ng-switch on="todo.type">
+                                      <div ng-switch-when="doc|docx" ng-switch-when-separator="|"><i class="fas fa-file-word fa-2x" ></i> {{todo.text}}</div>
+                                      <div ng-switch-when="pdf" ng-switch-when-separator="|"><i class="fas fa-file-pdf fa-2x" ></i> {{todo.text}}</div>
+                                      <div ng-switch-when="excel" ng-switch-when-separator="|"><i class="fas fa-file-powerpoint fa-2x" ></i> {{todo.text}}</div>
+                                      <div ng-switch-when="ppt|pptx" ng-switch-when-separator="|"><i class="fas fa-file-powerpoint fa-2x" ></i> {{todo.text}}</div>
+                                </div>
+                                
+                                <!-- <i class="fas fa-file-excel fa-2x" ></i>
+                                <i class="fas fa-file-pdf fa-2x" ></i>
+                                <i class="fas fa-file-archive fa-2x" ></i>
+                                <i class="fas fa-file-powerpoint fa-2x" ></i>
+                                <i class="fas fa-file-image fa-2x" ></i> -->
+                                
+                                <i class="far fa-user"></i>
+                            </div>
+                          </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+ </body>
+</html>
